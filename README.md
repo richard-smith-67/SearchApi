@@ -4,7 +4,7 @@ This is a simple .NET API that implements a full-text search. It's designed to w
 
 ## Prerequisites
 
-1. [.NET Core 5.0](https://dotnet.microsoft.com/download) or later
+1. [.NET Core 7.0](https://dotnet.microsoft.com/download) or later
 2. An IDE like [Visual Studio](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
 
 ## Running the API
