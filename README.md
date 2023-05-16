@@ -29,12 +29,12 @@ The API should start and be listening on `http://localhost:5288`.
 
 ## Testing the API
 
-You can test the API using a tool such as Postman or by running the provided Vue.js frontend application.
+You can test the API using Swagger (by default), Postman, or by running the provided Vue.js frontend application.
 
 The Vue.js app is located here: https://github.com/richard-smith-67/searchapiapp
 
 ## Connecting to the Vue.js Frontend
 
-Ensure that the Vue.js application is configured to query the API at `http://localhost:5288`. The endpoint can be found in SearchComponent.vue. If you need to change the port that the API is listening on, make sure to update the Vue.js application accordingly. 
+The Vue.js app is hardcoded to query `http://localhost:5288`, but this can be modified manually in SearchComponent.vue if necessary. If you need to change the port that the API is listening on, make sure to update the Vue.js application accordingly. 
 
 For details on how to run the Vue.js application, refer to its respective README file.
