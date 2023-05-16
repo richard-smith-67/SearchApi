@@ -34,7 +34,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SearchApi\SearchApi.csproj" />
-    <ProjectReference Include="..\webapi\SearchApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>
