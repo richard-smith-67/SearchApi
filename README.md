@@ -11,7 +11,7 @@ This is a simple .NET API that implements a full-text search on name and email. 
 
 1. Clone the repository to your local machine.
 
-2. Navigate to the root directory of the project in the terminal.
+2. Navigate to the root directory of the project using the command line console.
 
 3. Run the following command to restore the necessary packages:
 
@@ -19,13 +19,15 @@ This is a simple .NET API that implements a full-text search on name and email. 
 dotnet restore
 ```
 
-4. To start the API, run the following command:
+4. To start the API, navigate to the SearchApi folder and run the following command:
 
 ```
 dotnet run
 ```
 
 The API should start and be listening on `http://localhost:5288`.
+
+The swagger end point is here `http://localhost:5288/swagger/index.html`.
 
 ## Testing the API
 
