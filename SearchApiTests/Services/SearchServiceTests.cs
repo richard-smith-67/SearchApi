@@ -1,8 +1,9 @@
 ﻿using FluentAssertions;
 using SearchApi.Dtos;
+using SearchApi.Services;
 using Xunit;
 
-namespace SearchApi.Services.Tests
+namespace SearchApiTests.Services
 {
     public class SearchServiceTests
     {
@@ -30,7 +31,7 @@ namespace SearchApi.Services.Tests
             // Assert
             result.Count.Should().Be(1);
             result[0].first_name.Should().Be("test");
-           
+
         }
 
         [Fact]

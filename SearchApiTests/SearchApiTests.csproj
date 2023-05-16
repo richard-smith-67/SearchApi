@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="AcceptanceCriteriaTests\data.json" />
+    <None Remove="Acceptance\data.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="AcceptanceCriteriaTests\data.json">
+    <Content Include="Acceptance\data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -37,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="AcceptanceCriteriaTests\AcceptanceCriteriaTests.cs">
+    <Compile Update="Acceptance\AcceptanceTests.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
   </ItemGroup>

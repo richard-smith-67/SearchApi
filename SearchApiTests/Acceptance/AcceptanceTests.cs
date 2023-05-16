@@ -5,19 +5,19 @@ using SearchApi.Dtos;
 using Xunit;
 using SearchApi.Services;
 
-namespace SearchApiTests.AcceptanceCriteriaTests
+namespace SearchApiTests.Acceptance
 {
-    
+
     // I'm including these specific tests just in case! The SearchService is pretty simple and covered in general tests,
     // so normally I wouldn't test these specifics.
-    public class AcceptanceCriteriaTests
+    public class AcceptanceTests
     {
         private SearchService _searchService;
         private List<PersonDto> _testData;
 
-        public AcceptanceCriteriaTests()
+        public AcceptanceTests()
         {
-            string dataFilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "AcceptanceCriteriaTests", "data.json");
+            string dataFilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Acceptance", "data.json");
             _testData = LoadTestData(dataFilePath);
             _searchService = new SearchService();
         }

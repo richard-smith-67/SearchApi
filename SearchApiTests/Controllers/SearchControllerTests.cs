@@ -1,12 +1,13 @@
 ﻿using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using SearchApi.Controllers;
 using SearchApi.Data;
 using SearchApi.Dtos;
 using SearchApi.Services;
 using Xunit;
 
-namespace SearchApi.Controllers.Tests
+namespace SearchApiTests.Controllers
 {
     public class SearchControllerTests
     {
