@@ -1,6 +1,6 @@
 # Full Text Search API
 
-This is a simple .NET API that implements a full-text search on name and email. This depends upon a simple array of test data in json format which includes these properties. The test data is hardcoded into the api but persistent storage could easily be implemented.  It's designed to work with a Vue.js frontend application. The API runs on port 5288 and the Vue.js application is hardcoded to query this endpoint.
+This is a simple .NET API that implements a full-text search on name and email. This depends upon a simple array of test data in json format which includes these properties. The test data is hardcoded into the api but persistent storage could easily be implemented. The API runs on port 5288 and the Vue.js application is hardcoded to query this endpoint.
 
 ## Prerequisites
 
