@@ -12,13 +12,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<ISearchService, SearchService>();
 builder.Services.AddTransient<IPersonRepository, PersonRepository>();
 
+string vueAppUrl = builder.Configuration.GetValue<string>("VueAppUrl");
+
 // Make sure our Vue app can talk to our API
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(
         builder =>
         {
-            builder.WithOrigins("http://localhost:8080") // Vue.js default domain
+            builder.WithOrigins(vueAppUrl)
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
