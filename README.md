@@ -11,7 +11,7 @@ This is a simple .NET API that implements a full-text search on name and email. 
 
 1. Clone the repository to your local machine.
 
-2. Navigate to the root directory of the project using the command line console.
+2. Navigate to the project directory cd SearchApi/SearchApi
 
 3. Run the following command to restore the necessary packages:
 
@@ -19,7 +19,7 @@ This is a simple .NET API that implements a full-text search on name and email. 
 dotnet restore
 ```
 
-4. To start the API, navigate to the SearchApi folder and run the following command:
+4. To start the API, run the following command:
 
 ```
 dotnet run
