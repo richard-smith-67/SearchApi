@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
-using webapi.Dtos;
+using SearchApi.Dtos;
 using Xunit;
 
-namespace webapi.Services.Tests
+namespace SearchApi.Services.Tests
 {
     public class SearchServiceTests
     {

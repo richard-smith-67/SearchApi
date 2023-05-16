@@ -1,7 +1,7 @@
 ﻿using System;
-using webapi.Dtos;
+using SearchApi.Dtos;
 
-namespace webapi.Services
+namespace SearchApi.Services
 {
     public class SearchService : ISearchService
     {

@@ -1,6 +1,6 @@
-﻿using webapi.Dtos;
+﻿using SearchApi.Dtos;
 
-namespace webapi.Data
+namespace SearchApi.Data
 {
     public interface IPersonRepository
     {

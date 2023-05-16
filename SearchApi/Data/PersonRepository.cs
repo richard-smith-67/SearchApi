@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System.Reflection;
-using webapi.Dtos;
+using SearchApi.Dtos;
 
-namespace webapi.Data
+namespace SearchApi.Data
 {
     public class PersonRepository : IPersonRepository
     {

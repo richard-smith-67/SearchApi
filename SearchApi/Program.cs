@@ -1,5 +1,5 @@
-using webapi.Data;
-using webapi.Services;
+using SearchApi.Data;
+using SearchApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

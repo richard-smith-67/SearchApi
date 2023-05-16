@@ -1,11 +1,11 @@
 ﻿using FluentAssertions;
 using Newtonsoft.Json;
 using System.Reflection;
-using webapi.Dtos;
-using webapi.Services;
+using SearchApi.Dtos;
 using Xunit;
+using SearchApi.Services;
 
-namespace webapiTests.AcceptanceCriteriaTests
+namespace SearchApiTests.AcceptanceCriteriaTests
 {
     
     // I'm including these specific tests just in case! The SearchService is pretty simple and covered in general tests,

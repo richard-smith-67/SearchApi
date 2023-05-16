@@ -1,4 +1,4 @@
-﻿namespace webapi.Domain
+﻿namespace SearchApi.Domain
 {
     // Ultimately this is what we would persist to the database via Entity Framework
     public class Person

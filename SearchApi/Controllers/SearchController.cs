@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using webapi.Data;
-using webapi.Services;
+using SearchApi.Data;
+using SearchApi.Services;
 
-namespace webapi.Controllers
+namespace SearchApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

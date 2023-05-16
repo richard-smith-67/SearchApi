@@ -1,6 +1,6 @@
-﻿using webapi.Dtos;
+﻿using SearchApi.Dtos;
 
-namespace webapi.Services
+namespace SearchApi.Services
 {
     public interface ISearchService
     {

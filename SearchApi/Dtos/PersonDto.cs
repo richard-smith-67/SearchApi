@@ -1,4 +1,4 @@
-﻿namespace webapi.Dtos
+﻿namespace SearchApi.Dtos
 {
     // Using a DTO to map to the test data format we've been given
     public class PersonDto
